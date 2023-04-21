@@ -51,6 +51,7 @@ class fibo(){
 
 class node_fibo(var valor_ : Int){
     var valor = valor_
+    var filhos = ListBuffer[node_fibo]() // sem uso no momento
     var left: node_fibo = null
     var right: node_fibo = null
     var next_r: node_fibo = null
