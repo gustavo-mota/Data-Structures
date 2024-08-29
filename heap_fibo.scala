@@ -17,6 +17,26 @@ class heapsf(){
             heaps(idx).insert(valor)
         }
     }
+
+    def minimum(): Unit = {
+        println("minimum")
+    }
+
+    def extract_minimum(): Unit = {
+        println("extract-minimum")
+    }
+
+    def union(): Unit = {
+        println("union")
+    }
+
+    def decrease_key(): Unit = {
+        println("decrease_key")
+    }
+
+    def delete(): Unit = {
+        println("delete")
+    }
 }
 
 class fibo(){
